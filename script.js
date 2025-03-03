@@ -78,6 +78,7 @@ letterZone.addEventListener("click", (eo) => {
     if (!status) {
       numberOfWrong++;
       drow.classList.add(`wrong-${numberOfWrong}`);
+      window.scrollTo(0,1000);
       if (numberOfWrong == 8) {
         letterZone.style.pointerEvents = "none";
         setTimeout(finishGame,2000);
@@ -89,7 +90,7 @@ let finishGame = () => {
   let div = document.createElement("div");
   div.classList.add("finish");
   let p = document.createElement("p");
-  p.innerHTML = `game over , the word is <span> ${finalValue} </span>`
+  p.innerHTML = `game over , the word is <span> ${finalValue} please waiting to play again</span>`
   div.append(p);
   document.body.prepend(div);
   setTimeout(() => {

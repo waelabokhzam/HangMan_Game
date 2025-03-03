@@ -465,8 +465,6 @@ p {
   font-size: 20px;
   text-align: center;
   text-transform: capitalize;
-  position: fixed;
-  bottom: -20px;
   span{
     color: yellow;
   

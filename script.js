@@ -90,7 +90,7 @@ let finishGame = () => {
   let div = document.createElement("div");
   div.classList.add("finish");
   let p = document.createElement("p");
-  p.innerHTML = `game over , the word is <span> ${finalValue} please waiting to play again</span>`
+  p.innerHTML = `game over , the word is <span> ${finalValue} </span> please waiting to play again`
   div.append(p);
   document.body.prepend(div);
   setTimeout(() => {

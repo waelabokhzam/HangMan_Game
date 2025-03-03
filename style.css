@@ -466,7 +466,7 @@ p {
   text-align: center;
   text-transform: capitalize;
   position: fixed;
-  bottom: 0;
+  bottom: -20px;
   span{
     color: yellow;
   
